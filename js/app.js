@@ -24,3 +24,14 @@ console.log(x==y);
 
 console.log(x===y);
 //false
+
+let z = 10;
+let s = 20;
+
+if(z>s) {
+    console.log("Z is greater than S");
+} else if(z<s){
+    console.log("Z is less than S");
+}else{
+    console.log("Z is equel to S");
+}

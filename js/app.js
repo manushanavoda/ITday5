@@ -67,3 +67,9 @@ do{
     console.log(b);
     b++;
 }while(b < 10);
+
+function add(x,y){
+    return x+y;
+}
+let result = add(10,20);
+console.log(result);
